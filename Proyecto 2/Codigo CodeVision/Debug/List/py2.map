@@ -1,0 +1,38 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+posicion                                                                          0x00E0       2
+movimientos                                                                       0x00E2      20
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+botonp                                                                            R2.0      1bit
+botonp1                                                                           R2.1      1bit
+botonp2                                                                           R2.2      1bit
+botonp3                                                                           R2.3      1bit
+botonp4                                                                           R2.4      1bit
+botonp5                                                                           R2.5      1bit
+botonp6                                                                           R2.6      1bit
+botona                                                                            R2.7      1bit
+botonb                                                                            R3.0      1bit
+botonc                                                                            R3.1      1bit
+botond                                                                            R3.2      1bit
+botone                                                                            R3.3      1bit
+botonf                                                                            R3.4      1bit
+botong                                                                            R3.5      1bit
+control                                                                           R4,R5        2
+control2                                                                          R6,R7        2
+control3                                                                          R8,R9        2
+i                                                                                 R10,R11      2
+control4                                                                          R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+mover                                                                             0x0004E     65
+main                                                                              0x0008F    271

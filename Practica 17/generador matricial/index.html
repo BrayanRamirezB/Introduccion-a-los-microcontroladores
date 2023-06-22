@@ -1,0 +1,175 @@
+<!--
+  Autor: Jose Antonio Guzman Garcia
+  Contacto: JAGuzmanMX@outlook.com
+  Fecha: 30 de mayo de 2018
+  Licencia: GNU General Public License.
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Matrices</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <h4>Instituto Politécnico Nacional</h4>
+      <h5>Escuela Superior de  Cómputo</h5>
+      <h6>Introducción a los Microcontroladores</h6>
+    </header>
+
+    <section id="anodo">
+        <h1>Matriz columna ANODO</h1>
+        <h2>Fila catodo</h2>
+
+        <div class="principal">
+          <div class="matriz">
+
+            <div id="a11" class="punto apagado" onclick="seleccion('a11')">  </div>
+            <div id="a12" class="punto apagado" onclick="seleccion('a12')">  </div>
+            <div id="a13" class="punto apagado" onclick="seleccion('a13')">  </div>
+            <div id="a14" class="punto apagado" onclick="seleccion('a14')">  </div>
+            <div id="a15" class="punto apagado" onclick="seleccion('a15')">  </div>
+
+            <div id="a21" class="punto apagado" onclick="seleccion('a21')">  </div>
+            <div id="a22" class="punto apagado" onclick="seleccion('a22')">  </div>
+            <div id="a23" class="punto apagado" onclick="seleccion('a23')">  </div>
+            <div id="a24" class="punto apagado" onclick="seleccion('a24')">  </div>
+            <div id="a25" class="punto apagado" onclick="seleccion('a25')">  </div>
+
+            <div id="a31" class="punto apagado" onclick="seleccion('a31')">  </div>
+            <div id="a32" class="punto apagado" onclick="seleccion('a32')">  </div>
+            <div id="a33" class="punto apagado" onclick="seleccion('a33')">  </div>
+            <div id="a34" class="punto apagado" onclick="seleccion('a34')">  </div>
+            <div id="a35" class="punto apagado" onclick="seleccion('a35')">  </div>
+
+            <div id="a41" class="punto apagado" onclick="seleccion('a41')">  </div>
+            <div id="a42" class="punto apagado" onclick="seleccion('a42')">  </div>
+            <div id="a43" class="punto apagado" onclick="seleccion('a43')">  </div>
+            <div id="a44" class="punto apagado" onclick="seleccion('a44')">  </div>
+            <div id="a45" class="punto apagado" onclick="seleccion('a45')">  </div>
+
+            <div id="a51" class="punto apagado" onclick="seleccion('a51')">  </div>
+            <div id="a52" class="punto apagado" onclick="seleccion('a52')">  </div>
+            <div id="a53" class="punto apagado" onclick="seleccion('a53')">  </div>
+            <div id="a54" class="punto apagado" onclick="seleccion('a54')">  </div>
+            <div id="a55" class="punto apagado" onclick="seleccion('a55')">  </div>
+
+            <div id="a61" class="punto apagado" onclick="seleccion('a61')">  </div>
+            <div id="a62" class="punto apagado" onclick="seleccion('a62')">  </div>
+            <div id="a63" class="punto apagado" onclick="seleccion('a63')">  </div>
+            <div id="a64" class="punto apagado" onclick="seleccion('a64')">  </div>
+            <div id="a65" class="punto apagado" onclick="seleccion('a65')">  </div>
+
+            <div id="a71" class="punto apagado" onclick="seleccion('a71')">  </div>
+            <div id="a72" class="punto apagado" onclick="seleccion('a72')">  </div>
+            <div id="a73" class="punto apagado" onclick="seleccion('a73')">  </div>
+            <div id="a74" class="punto apagado" onclick="seleccion('a74')">  </div>
+            <div id="a75" class="punto apagado" onclick="seleccion('a75')">  </div>
+
+          </div>
+
+          <div class="resultadosFila">
+            <div id="RF1" class="resultado">  </div>
+            <div id="RF2" class="resultado">  </div>
+            <div id="RF3" class="resultado">  </div>
+            <div id="RF4" class="resultado">  </div>
+            <div id="RF5" class="resultado">  </div>
+            <div id="RF6" class="resultado">  </div>
+            <div id="RF7" class="resultado">  </div>
+          </div>
+        </div>
+
+        <div class="resultadosColumna">
+          <div id="RC1" class="result">  </div>
+          <div id="RC2" class="result">  </div>
+          <div id="RC3" class="result">  </div>
+          <div id="RC4" class="result">  </div>
+          <div id="RC5" class="result">  </div>
+        </div>
+        <a class="boton" onclick="codigoAnodo()" > Mostrar codigo</a>
+
+      </section>
+
+    <section id="catodo">
+      <h1>Matriz columna CATODO</h1>
+      <h2>Fila anodo</h2>
+
+      <div class="principal">
+        <div class="matriz">
+
+          <div id="c11" class="punto apagado" onclick="seleccion('c11')">  </div>
+          <div id="c12" class="punto apagado" onclick="seleccion('c12')">  </div>
+          <div id="c13" class="punto apagado" onclick="seleccion('c13')">  </div>
+          <div id="c14" class="punto apagado" onclick="seleccion('c14')">  </div>
+          <div id="c15" class="punto apagado" onclick="seleccion('c15')">  </div>
+
+          <div id="c21" class="punto apagado" onclick="seleccion('c21')">  </div>
+          <div id="c22" class="punto apagado" onclick="seleccion('c22')">  </div>
+          <div id="c23" class="punto apagado" onclick="seleccion('c23')">  </div>
+          <div id="c24" class="punto apagado" onclick="seleccion('c24')">  </div>
+          <div id="c25" class="punto apagado" onclick="seleccion('c25')">  </div>
+
+          <div id="c31" class="punto apagado" onclick="seleccion('c31')">  </div>
+          <div id="c32" class="punto apagado" onclick="seleccion('c32')">  </div>
+          <div id="c33" class="punto apagado" onclick="seleccion('c33')">  </div>
+          <div id="c34" class="punto apagado" onclick="seleccion('c34')">  </div>
+          <div id="c35" class="punto apagado" onclick="seleccion('c35')">  </div>
+
+          <div id="c41" class="punto apagado" onclick="seleccion('c41')">  </div>
+          <div id="c42" class="punto apagado" onclick="seleccion('c42')">  </div>
+          <div id="c43" class="punto apagado" onclick="seleccion('c43')">  </div>
+          <div id="c44" class="punto apagado" onclick="seleccion('c44')">  </div>
+          <div id="c45" class="punto apagado" onclick="seleccion('c45')">  </div>
+
+          <div id="c51" class="punto apagado" onclick="seleccion('c51')">  </div>
+          <div id="c52" class="punto apagado" onclick="seleccion('c52')">  </div>
+          <div id="c53" class="punto apagado" onclick="seleccion('c53')">  </div>
+          <div id="c54" class="punto apagado" onclick="seleccion('c54')">  </div>
+          <div id="c55" class="punto apagado" onclick="seleccion('c55')">  </div>
+
+          <div id="c61" class="punto apagado" onclick="seleccion('c61')">  </div>
+          <div id="c62" class="punto apagado" onclick="seleccion('c62')">  </div>
+          <div id="c63" class="punto apagado" onclick="seleccion('c63')">  </div>
+          <div id="c64" class="punto apagado" onclick="seleccion('c64')">  </div>
+          <div id="c65" class="punto apagado" onclick="seleccion('c65')">  </div>
+
+          <div id="c71" class="punto apagado" onclick="seleccion('c71')">  </div>
+          <div id="c72" class="punto apagado" onclick="seleccion('c72')">  </div>
+          <div id="c73" class="punto apagado" onclick="seleccion('c73')">  </div>
+          <div id="c74" class="punto apagado" onclick="seleccion('c74')">  </div>
+          <div id="c75" class="punto apagado" onclick="seleccion('c75')">  </div>
+
+        </div>
+
+        <div class="resultadosFila">
+          <div id="cRF1" class="resultado">  </div>
+          <div id="cRF2" class="resultado">  </div>
+          <div id="cRF3" class="resultado">  </div>
+          <div id="cRF4" class="resultado">  </div>
+          <div id="cRF5" class="resultado">  </div>
+          <div id="cRF6" class="resultado">  </div>
+          <div id="cRF7" class="resultado">  </div>
+        </div>
+      </div>
+
+      <div class="resultadosColumna">
+        <div id="cRC1" class="result">  </div>
+        <div id="cRC2" class="result">  </div>
+        <div id="cRC3" class="result">  </div>
+        <div id="cRC4" class="result">  </div>
+        <div id="cRC5" class="result">  </div>
+      </div>
+      <a class="boton" onclick="codigoCatodo()" > Mostrar codigo</a>
+
+    </section>
+
+    <footer>
+
+      <p> Herramienta totalmente creada por <b> Jose Antonio Guzmán García </b> <br> Contacto: <b>JAGuzmanMX@outlook.com</b  </p>
+      <p>Licencia: GNU General Public License</p>
+
+    </footer>
+  </body>
+</html>

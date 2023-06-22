@@ -1,0 +1,52 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+filas                                                                             0x00E0       7
+d1                                                                                0x00E7       2
+e1                                                                                0x00E9       2
+a2                                                                                0x00EB       2
+b2                                                                                0x00ED       2
+c2                                                                                0x00EF       2
+d2                                                                                0x00F1       2
+e2                                                                                0x00F3       2
+xj1                                                                               0x00F5       2
+xj2                                                                               0x00F7       2
+i                                                                                 0x00F9       2
+j                                                                                 0x00FB       2
+ai                                                                                0x00FD       2
+aj                                                                                0x00FF       2
+x                                                                                 0x0101       2
+iterador                                                                          0x0103       2
+factori                                                                           0x0105       2
+factorj                                                                           0x0107       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+botonpdj1                                                                         R2.0      1bit
+botonadj1                                                                         R2.1      1bit
+botonpdj2                                                                         R2.2      1bit
+botonadj2                                                                         R2.3      1bit
+botonpij1                                                                         R2.4      1bit
+botonaij1                                                                         R2.5      1bit
+botonpij2                                                                         R2.6      1bit
+botonaij2                                                                         R2.7      1bit
+puntuacionj1                                                                      R4,R5        2
+puntuacionj2                                                                      R6,R7        2
+a1                                                                                R8,R9        2
+b1                                                                                R10,R11      2
+c1                                                                                R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00052    323
+muevepunto                                                                        0x00195    173
+muevej1der                                                                        0x00242     51
+muevej1izq                                                                        0x00275     50
+muevej2der                                                                        0x002A7     54
+muevej2izq                                                                        0x002DD     49

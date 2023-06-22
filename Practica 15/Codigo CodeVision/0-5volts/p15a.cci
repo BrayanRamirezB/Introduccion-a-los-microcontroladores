@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:569CA3E5
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\mega8535.h"
+NODE:I LEVEL:0 LINE:26 "C:\cvavreval\inc\delay.h"
+NODE:M LEVEL:0 LINE:29 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:33 "read_adc(unsigned char adc_input)"
+NODE:C LEVEL:0 LINE:47 "tab7seg -> FLASH"
+NODE:M LEVEL:0 LINE:48 "C0"
+NODE:M LEVEL:0 LINE:49 "C1"
+NODE:V LEVEL:0 LINE:51 "cn -> R5"
+NODE:V LEVEL:0 LINE:52 "decenas -> R4"
+NODE:V LEVEL:0 LINE:53 "unidades -> R7"
+NODE:F LEVEL:0 LINE:55 "main(void)"

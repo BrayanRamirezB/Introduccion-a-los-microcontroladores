@@ -1,0 +1,44 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+cel                                                                               0x00E0       4
+mes                                                                               0x00E4       1
+change                                                                            0x00E5       1
+ye                                                                                0x00E6       2
+ar                                                                                0x00E8       2
+_base_y (alcd.lib)                                                                0x00EA       4
+_lcd_x                                                                            0x00EE       1
+_lcd_y                                                                            0x00EF       1
+_lcd_maxx                                                                         0x00F0       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+tem                                                                               R4,R5        2
+btnp                                                                              R2.0      1bit
+btna                                                                              R2.1      1bit
+unidades                                                                          R7           1
+decenas                                                                           R6           1
+decimas                                                                           R9           1
+cn                                                                                R8           1
+seg                                                                               R11          1
+min                                                                               R10          1
+hor                                                                               R13          1
+dia                                                                               R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x00067     13
+main                                                                              0x00074    303
+_lcd_write_nibble_G100                                                            0x001A3     14
+_lcd_write_data                                                                   0x001B1     13
+lcd_gotoxy                                                                        0x001BE     18
+lcd_clear                                                                         0x001D0     12
+lcd_putchar                                                                       0x001DC     30
+lcd_putsf                                                                         0x001FA     15
+lcd_init                                                                          0x00209     42

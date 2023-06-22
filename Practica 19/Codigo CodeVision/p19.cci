@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:569E8ED8
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\mega8535.h"
+NODE:V LEVEL:0 LINE:25 "indice -> R5"
+NODE:F LEVEL:0 LINE:28 "ext_int0_isr(void)"
+NODE:F LEVEL:0 LINE:36 "ext_int1_isr(void)"
+NODE:C LEVEL:0 LINE:44 "mem -> FLASH"
+NODE:F LEVEL:0 LINE:46 "main(void)"

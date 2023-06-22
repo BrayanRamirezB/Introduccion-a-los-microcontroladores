@@ -1,0 +1,25 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+cn                                                                                R5           1
+intensidad                                                                        R4           1
+unidades                                                                          R7           1
+decenas                                                                           R6           1
+centenas                                                                          R9           1
+isFahrenheit                                                                      R2.0      1bit
+pasado                                                                            R2.1      1bit
+actual                                                                            R2.2      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x0004B     15
+main                                                                              0x0005A    141

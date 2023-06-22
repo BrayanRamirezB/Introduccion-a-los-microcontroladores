@@ -1,0 +1,166 @@
+/*
+  Autor: Jose Antonio Guzman Garcia
+  Contacto: JAGuzmanMX@outlook.com
+  Fecha: 30 de mayo de 2018
+  Licencia: GNU General Public License.
+*/
+
+body
+{
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    'header header '
+    'm1 m2'
+    'footer footer';
+  grid-template-rows: 10% 80% 10%;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  min-width: 760px;
+  min-height: 900px;
+  justify-content: center;
+}
+header
+{
+  grid-area: header;
+}
+
+footer
+{
+  background-color: #212121;
+  grid-area: footer;
+  color: white;
+  font-family: sans-serif;
+  padding: 0 45px;
+}
+
+header h4
+{
+  color: white;
+  background-color: #6b1740;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  font-family: sans-serif;
+}
+header h5
+{
+  color: white;
+  background-color: #05639b ;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  font-family: sans-serif;
+}
+header h6
+{
+  color: white;
+  background-color: #388e3c;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+h1
+{
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+}
+h2
+{
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+}
+
+.principal{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  width: 360px;
+}
+
+.matriz{
+  background-color: black;
+  width: 219px;
+  padding: 10px;
+
+}
+
+.resultadosFila{
+  width: 90px;
+  font-family: Verdana, Geneva, sans-serif
+}
+.resultadosColumna{
+  width: 300px;
+  padding: 0 20px ;
+  font-family: Verdana, Geneva, sans-serif
+}
+.result{
+  display: inline-block;
+  width: 15px;
+  word-wrap: break-word;
+  text-align:center;
+  padding: 13px;
+  font-size: 20px
+
+}
+.punto{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 2px;
+  border-radius: 70px;
+  margin: 5px;
+}
+.resultado{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 5px 0;
+  padding: 2px 0;
+  font-size: 20px;
+  height: 36px;
+}
+
+.encendido{
+  background-color: red;
+}
+.apagado{
+  background-color: white;
+}
+
+.boton{
+  border-style: solid;
+  border-radius: 10px;
+  margin: 20px;
+  display: inline-block;
+  width: auto;
+  padding: 10px 15px;
+  color: white;
+  background-color: #6b1740;
+  cursor: pointer;
+  font-family:Verdana, Geneva, sans-serif;
+  transition: all 500ms ease;
+}
+.boton:hover{
+  animation-duration: 3s;
+  background-color: transparent;
+  color: #6b1740;
+}
+
+#anodo
+{
+  grid-area: m1;
+  min-width: 370px;
+  justify-self: center;
+}
+#catodo
+{
+  grid-area: m2;
+  min-width: 370px;
+  justify-self: center;
+
+}
